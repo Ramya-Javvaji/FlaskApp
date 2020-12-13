@@ -6,9 +6,7 @@ app.secret_key = b'RamyaSree'
 
 @app.route("/")
 def hello():
-    return """Hello World!  <a href='/about'> About </a>
-    <a href='/skill'> skill </a>
-    <a href='/myform'> myform </a>"""
+    return
 
 
 @app.route("/about")
