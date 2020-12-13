@@ -6,7 +6,7 @@ app.secret_key = b'RamyaSree'
 
 @app.route("/")
 def hello():
-    return
+    return render_template('index.html')
 
 
 @app.route("/about")
